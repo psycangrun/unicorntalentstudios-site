@@ -1,6 +1,6 @@
-# unicorntalentstudio.com
+# unicorntalentstudios.com
 
-The website for Unicorn Talent Studio (Unicorn Talent LLC), hosted on GitHub Pages from this repo's
+The website for Unicorn Talent Studios (Unicorn Talent LLC), hosted on GitHub Pages from this repo's
 `main` branch. `CNAME` holds the custom domain.
 
 ## Pages Apple links to (keep these addresses working)
@@ -15,6 +15,6 @@ If they move, the listing's URLs have to change too (in the game repo, `store/li
 `tools/asc_listing.py --apply`). The privacy policy describes what the game actually does (it
 collects no personal data); keep it accurate if the game ever changes that.
 
-Contact on the pages: support@unicorntalentstudio.com.
+Contact on the pages: support@unicorntalentstudios.com.
 
 Plain HTML and one stylesheet (`style.css`); the font is Lilita One from Google Fonts.

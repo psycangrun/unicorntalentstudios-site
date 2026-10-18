@@ -4,28 +4,131 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tall Order</title>
-<meta name="description" content="Tall Order: a cute food-stacking game for iPhone, with live Battles for up to 16 players.">
+<meta name="description" content="Tall Order: a cute food-stacking game for iPhone. 16 foods, a new Daily every day, and live Battles for up to 16 players.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Fredoka:wght@300..700&family=Nunito:wght@200..1000&display=swap">
+<link rel="stylesheet" href="/brand.css">
+<link rel="stylesheet" href="/tall-order/tall-order.css">
 </head>
 <body>
-<main class="page">
-  <div class="card">
-    <header class="brand">
-      <img src="/tall-order/icon.png" alt="Tall Order app icon">
-      <h1>Tall Order</h1>
-    </header>
-    <p>One tap, one layer, one very tall order. Stack 12 cute foods as high as you can, take on a
-      new Daily Challenge every day, and battle up to 16 players live: last tower standing wins.</p>
-    <p class="muted">For iPhone. Free to play; three foods are free and the rest are one-time
-      purchases. No ads, no currency.</p>
-    <nav class="links">
+<header class="navbar">
+  <div class="navbar-inner">
+    <a class="game-mark" href="/tall-order/">
+      <img src="/tall-order/icon.png" alt="">
+      Tall Order
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#foods">Foods</a>
+      <a href="#reviews">Reviews</a>
       <a href="/tall-order/support/">Support</a>
-      <a href="/tall-order/privacy/">Privacy Policy</a>
     </nav>
   </div>
-  <footer>© 2026 Unicorn Talent LLC</footer>
-</main>
+</header>
+
+<section class="hero">
+  <div class="hero-copy">
+    <h1>A layer for every player</h1>
+    <p class="lead">Tap to drop and stack it sky high! 16 cute foods, a new Daily every day, and live
+      Battles for up to 16 players. Miss once and you're out: last tower standing wins.</p>
+    <div class="store-badges">
+      <span class="store-badge" title="Coming soon"><img src="/img/badges/app-store.svg" alt="Download on the App Store"></span>
+      <span class="store-badge" title="Coming soon"><img src="/img/badges/google-play.png" alt="Get it on Google Play"></span>
+    </div>
+  </div>
+  <img class="hero-icon" src="/tall-order/icon.png" alt="Tall Order app icon">
+</section>
+
+<section class="shots" aria-label="Screenshots">
+  <img src="/tall-order/img/tower.jpg" alt="Classic mode: a tower of matcha cake layers with a 5 in a row combo">
+  <img src="/tall-order/img/rumble.jpg" alt="Rumble: a pizza tower battling up to 16 players">
+  <img src="/tall-order/img/daily.jpg" alt="Daily Challenge: an ice cream tower on a foggy day">
+</section>
+
+<section id="features" class="section features">
+  <div class="section-head">
+    <h2>Features</h2>
+    <p>One tap, one layer, one very tall order. Whatever hangs over the edge falls off, so every layer
+      is a little narrower. Land it dead center for a PERFECT and watch your tower climb into the clouds.</p>
+  </div>
+  <div class="features-body">
+    <img class="features-shot" src="/tall-order/img/foods.jpg" alt="Choosing a food to stack in the Your Order screen">
+    <ol class="feature-list">
+      <li><h3>Timed challenges</h3><p>Classic gives you 60 seconds to stack as high as you can, and a new Daily Challenge lands every day.</p></li>
+      <li><h3>Marathon play</h3><p>No clock. Stack until you miss.</p></li>
+      <li><h3>1v1 Battles</h3><p>Best of three rounds against a friend or a random opponent.</p></li>
+      <li><h3>16-player rumbles</h3><p>Up to 16 players at once. Last tower standing wins.</p></li>
+      <li><h3>Choose your food</h3><p>Every food has its own cute layers, its own base and its own mastery tiers, from Silver to Rainbow.</p></li>
+      <li><h3>Daily Missions</h3><p>Three new missions every day, plus a monthly exclusive.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="foods" class="section">
+  <div class="section-head">
+    <h2>Foods</h2>
+    <p>Pick what goes on the stack. Three foods are free; unlock the rest one at a time or in packs of three.</p>
+  </div>
+  <ul class="food-grid">
+    <li class="food food-free"><span class="food-free-label">Free to start</span><span class="food-free-names">Burgers, Bagels &amp; Club Sandwich</span></li>
+    <li class="food"><img src="/tall-order/img/foods/sushi.png" alt=""><span>Sushi</span></li>
+    <li class="food"><img src="/tall-order/img/foods/gyro.png" alt=""><span>Gyro</span></li>
+    <li class="food"><img src="/tall-order/img/foods/lasagna.png" alt=""><span>Lasagna</span></li>
+    <li class="food"><img src="/tall-order/img/foods/pancakes.png" alt=""><span>Pancakes</span></li>
+    <li class="food"><img src="/tall-order/img/foods/icecream.png" alt=""><span>Ice Cream</span></li>
+    <li class="food"><img src="/tall-order/img/foods/cake.png" alt=""><span>Layer Cake</span></li>
+    <li class="food"><img src="/tall-order/img/foods/pizza.png" alt=""><span>Pizza</span></li>
+    <li class="food"><img src="/tall-order/img/foods/ramen.png" alt=""><span>Ramen</span></li>
+    <li class="food"><img src="/tall-order/img/foods/donuts.png" alt=""><span>Donuts</span></li>
+    <li class="food"><img src="/tall-order/img/foods/dimsum.png" alt=""><span>Dim Sum</span></li>
+    <li class="food"><img src="/tall-order/img/foods/macarons.png" alt=""><span>Macarons</span></li>
+    <li class="food"><img src="/tall-order/img/foods/smores.png" alt=""><span>S'mores</span></li>
+    <li class="food"><img src="/tall-order/img/foods/cookies.png" alt=""><span>Cookies &amp; Creme</span></li>
+  </ul>
+</section>
+
+<section id="reviews" class="section">
+  <div class="section-head">
+    <h2>Why people love the game</h2>
+  </div>
+  <div class="quotes">
+    <figure class="quote">
+      <blockquote>1v1 is incredible I love the battles and challenging new players</blockquote>
+      <figcaption>Greg Federspiel</figcaption>
+    </figure>
+    <figure class="quote">
+      <blockquote>I can stack for hours. I love trying to beat my last challenge</blockquote>
+      <figcaption>Jon Logerfo</figcaption>
+    </figure>
+    <figure class="quote">
+      <blockquote>The game is easy to play, easy to win, and fun to share</blockquote>
+      <figcaption>Bari Shulman</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="cta">
+    <img class="cta-icon" src="/tall-order/icon.png" alt="">
+    <div>
+      <h2>Download the app</h2>
+      <p>Free to play. No ads, no currency.</p>
+      <div class="store-badges">
+        <span class="store-badge" title="Coming soon"><img src="/img/badges/app-store.svg" alt="Download on the App Store"></span>
+        <span class="store-badge" title="Coming soon"><img src="/img/badges/google-play.png" alt="Get it on Google Play"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <nav>
+    <a href="/tall-order/support/">Support</a>
+    <a href="/tall-order/privacy/">Privacy Policy</a>
+    <a href="mailto:support@unicorntalentstudios.com">Contact us</a>
+  </nav>
+  <p>© 2026 <a href="/">Unicorn Talent Studios</a> (Unicorn Talent LLC)</p>
+</footer>
 </body>
 </html>

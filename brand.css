@@ -1,0 +1,30 @@
+:root {
+  --uts-primary: #4ECDC4;
+  --uts-primary-dark: #1A8C84;
+  --uts-logo: #21066F;
+  --uts-accent-pink: #FF5FA2;
+  --uts-accent-violet: #7B5CFF;
+  --uts-reward: #FFD23F;
+  --uts-midnight: #1E1B3A;
+  --uts-cream: #FFF8EE;
+
+  --uts-font-logo: 'Outfit', system-ui, sans-serif;
+  --uts-font-headline: 'Outfit', system-ui, sans-serif;
+  --uts-font-ui: 'Fredoka', system-ui, sans-serif;
+  --uts-font-body: 'Nunito', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+.btn {
+  font-family: var(--uts-font-ui);
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 10px 20px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 150ms ease;
+}
+.btn-primary { background: var(--uts-primary); color: var(--uts-midnight); }
+.btn-primary:hover { background: var(--uts-primary-dark); color: #fff; }
+.btn-large { padding: 14px 32px; font-size: 1.15rem; }

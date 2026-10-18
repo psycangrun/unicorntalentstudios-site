@@ -4,23 +4,68 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Unicorn Talent Studios</title>
-<meta name="description" content="Games by Unicorn Talent Studios (Unicorn Talent LLC).">
+<meta name="description" content="Small, cute, fun games for iPhone by Unicorn Talent Studios (Unicorn Talent LLC): Tall Order, Clinkerton, Jinx Jumper and Pier Pressure.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap">
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<main class="page">
-  <div class="card">
-    <h1>Unicorn Talent Studios</h1>
-    <p>Small, cute, fun games for iPhone.</p>
-    <header class="brand">
-      <img src="/tall-order/icon.png" alt="Tall Order app icon">
-      <div><h2 style="margin:0"><a href="/tall-order/">Tall Order</a></h2>
-        <p class="muted" style="margin:0">Stack cute food sky high.</p></div>
-    </header>
+<header class="topbar">
+  <a class="wordmark" href="/">Unicorn Talent Studios</a>
+  <nav>
+    <a href="#games">Games</a>
+    <a href="mailto:support@unicorntalentstudios.com">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-icons" aria-hidden="true">
+    <img src="/img/clinkerton.png" alt="">
+    <img src="/tall-order/icon.png" alt="">
+    <img src="/img/jinx-jumper.png" alt="">
   </div>
-  <footer>© 2026 Unicorn Talent LLC</footer>
+  <h1>Games</h1>
+  <p class="hero-tagline">Stack. Spin. Jump. Small, cute, fun games for iPhone.</p>
+</section>
+
+<main id="games" class="games">
+  <a class="game game-tall-order" href="/tall-order/">
+    <div class="game-art"><img src="/tall-order/icon.png" alt="Tall Order app icon"></div>
+    <div class="game-info">
+      <p class="game-tagline">Stack cute food sky high</p>
+      <h2>Tall Order</h2>
+      <span class="pill">Play on iPhone</span>
+    </div>
+  </a>
+
+  <a class="game game-clinkerton" href="https://clinkerton.com">
+    <div class="game-art"><img src="/img/clinkerton.png" alt="Clinkerton app icon"></div>
+    <div class="game-info">
+      <p class="game-tagline">Roguelike slots. Pull, nudge, win!</p>
+      <h2>Clinkerton</h2>
+      <span class="pill">Visit site</span>
+    </div>
+  </a>
+
+  <div class="game game-jinx-jumper">
+    <div class="game-art"><img src="/img/jinx-jumper.png" alt="Jinx Jumper app icon"></div>
+    <div class="game-info">
+      <p class="game-tagline">Dodge black cats, ladders and broken mirrors</p>
+      <h2>Jinx Jumper</h2>
+      <span class="pill pill-soon">Coming soon</span>
+    </div>
+  </div>
+
+  <div class="game game-pier-pressure">
+    <div class="game-art game-art-empty"><span aria-hidden="true">?</span></div>
+    <div class="game-info">
+      <p class="game-tagline">Something new is on the way</p>
+      <h2>Pier Pressure</h2>
+      <span class="pill pill-soon">Coming soon</span>
+    </div>
+  </div>
 </main>
+
+<footer>© 2026 Unicorn Talent LLC · <a href="mailto:support@unicorntalentstudios.com">support@unicorntalentstudios.com</a></footer>
 </body>
 </html>

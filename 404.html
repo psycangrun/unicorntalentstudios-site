@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found · Unicorn Talent Studios</title>
+<script>
+  // GitHub Pages paths are case-sensitive, so /Clinkerton misses /clinkerton/.
+  (function () {
+    var path = location.pathname;
+    var lower = path.toLowerCase();
+    if (lower !== path) location.replace(lower.replace(/\/?$/, '/') + location.search + location.hash);
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Fredoka:wght@300..700&family=Nunito:wght@200..1000&display=swap">
+<link rel="stylesheet" href="/brand.css">
+<link rel="stylesheet" href="/home.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="navbar-inner">
+    <a class="wordmark" href="/">Unicorn Talent Studios</a>
+    <a class="btn btn-primary" href="mailto:support@unicorntalentstudios.com">Contact us</a>
+  </div>
+</header>
+<section class="hero">
+  <img class="hero-logo" src="/img/logo.png" alt="Unicorn Talent Studios Games">
+  <p class="hero-tagline">This page wandered off</p>
+  <p class="hero-intro">We couldn't find that page. Head back home to see our games.</p>
+  <a class="btn btn-primary btn-large" href="/">Back to home</a>
+</section>
+</body>
+</html>

@@ -149,7 +149,8 @@ a { color: inherit; }
 .feature-list h3 { margin: 0 0 6px; font-size: 1.5rem; }
 .feature-list p, .jinx p, .charm p, .hood p { margin: 0; color: var(--muted); }
 
-.jinxes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 18px; }
+.jinxes { display: grid; grid-template-columns: 1fr; gap: 18px; }
+@media (min-width: 760px) { .jinxes { grid-template-columns: repeat(3, 1fr); } }
 .jinx { padding: 22px; }
 .jinx h3 { margin: 12px 0 6px; font-size: 1.4rem; }
 .move {

@@ -7,7 +7,7 @@
 <meta name="description" content="Stack, Slide, Swipe, Pull & Win. Games for iPhone by Unicorn Talent Studios (Unicorn Talent LLC): Tall Order, Clinkerton, Jinx Jumper and Pier Pressure.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Fredoka:wght@300..700&family=Nunito:wght@200..1000&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Fredoka:wght@300..700&family=Nunito:wght@200..1000&family=Rye&family=Jersey+10&family=Share+Tech+Mono&family=Lilita+One&display=swap">
 <link rel="stylesheet" href="/brand.css">
 <link rel="stylesheet" href="/home.css">
 </head>
@@ -52,6 +52,65 @@
   </div>
 </main>
 
+<section class="showcase" aria-roledescription="carousel" aria-label="Gameplay">
+  <h2 class="showcase-heading">See them in action</h2>
+  <div class="showcase-viewport">
+    <div class="showcase-track">
+      <article class="slide slide-tall-order" aria-roledescription="slide" aria-label="Tall Order, 1 of 3">
+        <div class="slide-copy">
+          <p class="slide-eyebrow">Tall Order</p>
+          <h3 class="slide-title">A layer for every player</h3>
+          <p class="slide-text">Tap to drop and stack it sky high, then battle up to 16 players live. Last tower standing wins.</p>
+          <a class="slide-btn" href="/tall-order/">Explore Tall Order</a>
+        </div>
+        <div class="slide-phone">
+          <video muted playsinline preload="none" poster="/img/showcase/tall-order.jpg" aria-label="Tall Order gameplay: a Classic run on a perfect streak, then a 16-player Rumble">
+            <source src="/img/showcase/tall-order.mp4" type="video/mp4">
+          </video>
+        </div>
+      </article>
+
+      <article class="slide slide-clinkerton" aria-roledescription="slide" aria-label="Clinkerton, 2 of 3">
+        <div class="slide-copy">
+          <p class="slide-eyebrow">Clinkerton</p>
+          <h3 class="slide-title">Beat the house</h3>
+          <p class="slide-text">Pull the lever, nudge the reels and catch fire on your way down the Strip. No real money, ever.</p>
+          <a class="slide-btn" href="/clinkerton/">Explore Clinkerton</a>
+        </div>
+        <div class="slide-phone">
+          <video muted playsinline preload="none" poster="/img/showcase/clinkerton.jpg" aria-label="Clinkerton gameplay: a jackpot, then a Perfect Pull streak through On Fire, Blue Fire and White Hot">
+            <source src="/img/showcase/clinkerton.mp4" type="video/mp4">
+          </video>
+        </div>
+      </article>
+
+      <article class="slide slide-jinx-jumper" aria-roledescription="slide" aria-label="Jinx Jumper, 3 of 3">
+        <div class="slide-copy">
+          <p class="slide-eyebrow">Jinx Jumper · Coming soon</p>
+          <h3 class="slide-title">Outrun your bad luck</h3>
+          <p class="slide-text">Hop black cats, duck the crows and grab a four-leaf clover on the night streets.</p>
+          <a class="slide-btn" href="/jinx-jumper/">Explore Jinx Jumper</a>
+        </div>
+        <div class="slide-phone">
+          <video muted playsinline preload="none" poster="/img/showcase/jinx-jumper.jpg" aria-label="Jinx Jumper gameplay: running Main Street and the Haunted Mansion, dodging jinxes and grabbing charms">
+            <source src="/img/showcase/jinx-jumper.mp4" type="video/mp4">
+          </video>
+        </div>
+      </article>
+    </div>
+  </div>
+  <div class="showcase-controls">
+    <button class="showcase-arrow" type="button" data-step="-1" aria-label="Previous game">‹</button>
+    <div class="showcase-dots">
+      <button type="button" aria-label="Show Tall Order"></button>
+      <button type="button" aria-label="Show Clinkerton"></button>
+      <button type="button" aria-label="Show Jinx Jumper"></button>
+    </div>
+    <button class="showcase-arrow" type="button" data-step="1" aria-label="Next game">›</button>
+  </div>
+</section>
+
 <footer class="site-footer">© 2026 Unicorn Talent LLC</footer>
+<script src="/showcase.js"></script>
 </body>
 </html>

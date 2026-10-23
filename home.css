@@ -127,12 +127,17 @@ a.game:hover .game-name { text-decoration: underline; text-decoration-thickness:
 .game-pier-pressure { --game-bg: var(--uts-primary-dark); }
 
 .site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
   padding: 32px 24px 48px;
   border-top: 1px solid rgb(30 27 58 / 0.08);
-  text-align: center;
   font-size: 0.9rem;
   color: rgb(30 27 58 / 0.6);
 }
+.site-footer a { color: inherit; }
+.site-footer a:hover { color: var(--uts-logo); }
 
 .showcase { max-width: 1200px; margin: 0 auto; padding: 24px 24px 80px; }
 .showcase-heading {
